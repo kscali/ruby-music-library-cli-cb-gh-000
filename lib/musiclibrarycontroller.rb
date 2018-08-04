@@ -31,7 +31,7 @@ class MusicLibraryController
     all_songs = songs.all 
     all_songs.sort 
     all_songs.each do |song|
-      all_songs.each_index + ". " song 
+      all_songs.each_index + ". " + song 
     end   
   
   end 
