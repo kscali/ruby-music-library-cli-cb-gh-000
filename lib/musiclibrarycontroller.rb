@@ -27,6 +27,11 @@ class MusicLibraryController
     end 
   end 
   
+  def list_songs 
+    all_songs = songs.all 
+    all_songs.sort 
+    all_songs.each do |index
   
+  end 
   
 end   
